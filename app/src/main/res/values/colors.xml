@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="burgundy">#AF5D63</color>
+    <color name="burgundy_200">#8A4E52</color>
+    <color name="burgundy_700">#5E393B</color>
+    <color name="gray">#C0BCB5</color>
+    <color name="gray_200">#94918B</color>
+    <color name="gray_700">#5E5D5B</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="forest">#30632b</color>
+    <color name="pale_dark_green">#608000</color>
+</resources>

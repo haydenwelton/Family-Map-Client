@@ -1,0 +1,23 @@
+<resources>
+    <!--
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=BA:D7:0D:0B:48:5F:ED:37:D6:F9:C5:4E:5A:79:83:A7:D9:E1:8E:7C%3Bnet.haydenwelton.familymap
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    net.haydenwelton.familymap
+
+    SHA-1 certificate fingerprint:
+    BA:D7:0D:0B:48:5F:ED:37:D6:F9:C5:4E:5A:79:83:A7:D9:E1:8E:7C
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">"AIzaSyBC2il3y6aAAQBBNiA4blPaQCC-0yCTHkE"</string>
+</resources>

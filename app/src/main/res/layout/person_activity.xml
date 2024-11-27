@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="@dimen/viewMargin" >
+            <TextView
+                android:id="@+id/firstNamePerson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/personInfoText" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/infoSubtitle"
+                android:text="@string/firstNamePerson" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <TextView
+                android:id="@+id/lastNamePerson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/personInfoText" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/infoSubtitle"
+                android:text="@string/lastNamePerson" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <TextView
+                android:id="@+id/genderPerson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/personInfoText" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/infoSubtitle"
+                android:text="@string/genderPerson" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <ExpandableListView
+                android:id="@+id/expList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:groupIndicator="@drawable/selector"
+                android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

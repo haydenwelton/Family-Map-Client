@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <SwitchPreferenceCompat
+        app:key="life_lines"
+        app:title="@string/life_lines"
+        app:defaultValue="true"
+        app:iconSpaceReserved="false" />
+    <SwitchPreferenceCompat
+        app:key="family_lines"
+        app:title="@string/family_lines"
+        app:defaultValue="true"
+        app:iconSpaceReserved="false" />
+    <SwitchPreferenceCompat
+        app:key="spouse_lines"
+        app:title="@string/spouse_lines"
+        app:defaultValue="true"
+        app:iconSpaceReserved="false" />
+    <SwitchPreferenceCompat
+        app:key="father_side"
+        app:title="@string/father_side"
+        app:defaultValue="true"
+        app:iconSpaceReserved="false" />
+    <SwitchPreferenceCompat
+        app:key="mother_side"
+        app:title="@string/mother_side"
+        app:defaultValue="true"
+        app:iconSpaceReserved="false" />
+    <SwitchPreferenceCompat
+        app:key="male"
+        app:title="@string/male_filter"
+        app:defaultValue="true"
+        app:iconSpaceReserved="false" />
+    <SwitchPreferenceCompat
+        app:key="female"
+        app:title="@string/female_filter"
+        app:defaultValue="true"
+        app:iconSpaceReserved="false" />
+
+</PreferenceScreen>

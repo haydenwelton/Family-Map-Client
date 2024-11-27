@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mapTextSize">20sp</dimen>
+    <dimen name="personInfoTextSize">20sp</dimen>
+    <dimen name="personImageMargin">5dp</dimen>
+    <dimen name="viewMargin">10dp</dimen>
+    <dimen name="rowMargin">10dp</dimen>
+    <dimen name="subtitleMargin">5dp</dimen>
+</resources>

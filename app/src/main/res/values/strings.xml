@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Family Map</string>
+    <string name="host">Server Host:</string>
+    <string name="port">Server Port:</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="firstName">First Name:</string>
+    <string name="lastName">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="gender">Gender:</string>
+    <string name="login">SIGN IN</string>
+    <string name="register">REGISTER</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be > 5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- Strings related to action bar -->
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <!-- Strings related to map -->
+    <string name="image_description">Person Image</string>
+    <string name="default_info">Click on a marker to see event details</string>
+    <string name="info_bar_text">%s%n%s</string>
+    <string name="person_name">%s %s</string>
+    <string name="event_info">%s: %s, %s (%d)</string>
+    <!-- Strings related to person -->
+    <string name="firstNamePerson">First Name</string>
+    <string name="lastNamePerson">Last Name</string>
+    <string name="genderPerson">Gender</string>
+    <string name="person_events_title">life events</string>
+    <string name="personFamilyTitle">family</string>
+    <!-- Strings related to preferences -->
+    <string name="life_lines">Show life story lines</string>
+    <string name="family_lines">Show family tree lines</string>
+    <string name="spouse_lines">Show spouse lines</string>
+    <string name="father_side">Show events on father\'s side</string>
+    <string name="mother_side">Show events on mother\'s side</string>
+    <string name="male_filter">Show male events</string>
+    <string name="female_filter">Show female events</string>
+    <string name="logout">Logout</string>
+    <!-- Strings related to search -->
+    <string name="clear_text">Clear</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
